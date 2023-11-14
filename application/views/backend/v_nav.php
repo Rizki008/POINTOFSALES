@@ -85,6 +85,18 @@
 							</li>
 						</ul>
 					</li>
+					<li class="nav-item">
+						<a href="<?= base_url('outlet') ?>" class="nav-link <?php if (
+																				$this->uri->segment(1) == 'outlet'
+																			) {
+																				echo "active";
+																			} ?>">
+							<i class="nav-icon fas fa-store"></i>
+							<p>
+								Outlet
+							</p>
+						</a>
+					</li>
 				<?php } ?>
 
 				<?php if ($this->session->userdata('level_user') === 'kasir') { ?>
