@@ -12,6 +12,7 @@ class Master extends CI_Controller
 		parent::__construct();
 		//Load Dependencies
 		$this->load->model('m_master');
+		$this->load->model('m_outlet');
 	}
 
 	// List all your items
