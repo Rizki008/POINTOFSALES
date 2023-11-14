@@ -12,7 +12,13 @@ class M_outlet extends CI_Model
 		$this->db->from('outlet');
 		$this->db->join('user', 'outlet.id_user = user.id_user', 'left');
 		$this->db->where('outlet.id_user', $this->session->userdata('id_user'));
-
+		return $this->db->get()->result();
+	}
+	public function cabangoutlet()
+	{
+		$this->db->select('*');
+		$this->db->from('outlet');
+		$this->db->join('user', 'outlet.id_user = user.id_user', 'left');
 		return $this->db->get()->result();
 	}
 }
