@@ -3,7 +3,7 @@
 <div class="col-md-12">
 	<div class="card card-primary">
 		<div class="card-header">
-			<h3 class="card-title">Produk Dalam Pesanan</h3>
+			<h3 class="card-title">Data Histori</h3>
 		</div>
 		<div class="card-body p-0">
 			<table class="table align-items-center table-flush">

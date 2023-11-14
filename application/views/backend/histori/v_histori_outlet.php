@@ -1,8 +1,7 @@
 <div class="col-md-12">
 	<div class="card card-primary">
 		<div class="card-header">
-			<h3 class="card-title">Data Cetak Transaksi</h3>
-
+			<h3 class="card-title">Data Histori Transaksi</h3>
 			<div class="card-tools">
 			</div>
 			<!-- /.card-tools -->
