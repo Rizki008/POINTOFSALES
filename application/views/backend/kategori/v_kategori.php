@@ -1,7 +1,7 @@
 <div class="col-md-12">
 	<div class="card card-primary">
 		<div class="card-header">
-			<h3 class="card-title">Data User</h3>
+			<h3 class="card-title">Data Kategori</h3>
 
 			<div class="card-tools">
 				<button data-toggle="modal" data-target="#add" type="button" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i>
