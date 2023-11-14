@@ -13,6 +13,7 @@ class Admin extends CI_Controller
 		//Load Dependencies
 		$this->load->model('m_auth');
 		$this->load->model('m_transaksi');
+		$this->load->model('m_outlet');
 	}
 
 	// List all your items
