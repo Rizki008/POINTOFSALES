@@ -79,7 +79,18 @@
 						<?php } ?>
 					</select>
 				</div>
-
+				<div class="form-group">
+					<label>No Hp</label>
+					<input type="number" name="no_hp" class="form-control" placeholder="NO HP Outlet" required>
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" name="email" class="form-control" placeholder="Email Outlet" required>
+				</div>
+				<div class="form-group">
+					<label>Alamat</label>
+					<input type="text" name="alamat" class="form-control" placeholder="Alamat Outlet" required>
+				</div>
 			</div>
 			<div class="modal-footer justify-content-between">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -126,7 +137,18 @@
 							<?php } ?>
 						</select>
 					</div>
-
+					<div class="form-group">
+						<label>No HP</label>
+						<input type="number" name="no_hp" value="<?= $value->no_hp ?>" class="form-control" placeholder="No Hp Outlet" required>
+					</div>
+					<div class="form-group">
+						<label>Nama Outlet</label>
+						<input type="email" name="email" value="<?= $value->email ?>" class="form-control" placeholder="Email Outlet" required>
+					</div>
+					<div class="form-group">
+						<label>Nama Outlet</label>
+						<input type="text" name="alamat" value="<?= $value->alamat ?>" class="form-control" placeholder="Alamat Outlet" required>
+					</div>
 				</div>
 				<div class="modal-footer justify-content-between">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

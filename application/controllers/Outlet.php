@@ -30,6 +30,9 @@ class Outlet extends CI_Controller
 	{
 		$data = array(
 			'nama_outlet' => $this->input->post('nama_outlet'),
+			'no_hp' => $this->input->post('no_hp'),
+			'email' => $this->input->post('email'),
+			'alamat' => $this->input->post('alamat'),
 			'id_user' => $this->input->post('id_user'),
 		);
 		$this->m_outlet->add($data);
@@ -43,6 +46,9 @@ class Outlet extends CI_Controller
 		$data = array(
 			'id_outlet' => $id_outlet,
 			'nama_outlet' => $this->input->post('nama_outlet'),
+			'no_hp' => $this->input->post('no_hp'),
+			'email' => $this->input->post('email'),
+			'alamat' => $this->input->post('alamat'),
 			'id_user' => $this->input->post('id_user'),
 		);
 		$this->m_outlet->edit($data);

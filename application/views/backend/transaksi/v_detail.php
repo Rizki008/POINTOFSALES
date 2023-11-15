@@ -155,11 +155,11 @@ foreach ($this->cart->contents() as $items) {
 				<form class="forms-sample" action="<?= base_url('transaksi/checkout') ?>" method="POST">
 					<?php
 					$i = 1;
-					$j = 1;
+					// $j = 1;
 					foreach ($this->cart->contents() as $items) {
 						echo form_hidden('qty' . $i++, $items['qty']);
-						$id_detail = random_string('alnum', 5);
-						echo form_hidden('id_detail' . $j++, $id_detail);
+						// $id_detail = random_string('alnum', 5);
+						// echo form_hidden('id_detail' . $j++, $id_detail);
 					}
 					$no_transaksi = date('Ymd') . strtoupper(random_string('alnum', 8));
 					?>
